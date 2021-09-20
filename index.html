@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  PROYECTO G3C3
        INTEGRANTES: 
-                  Gladys Sarmiento Zuluaga
+                   Gladys Sarmiento Zuluaga
                    Edna Alejandra Marin
                    Eduardo Revollo
                    Juan Carlos Naranjo
@@ -11,7 +11,10 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>PROYECTO C3G3 PARCELAMIENTO FINCAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/compratuparcelacom.png">
+    <link rel="stylesheet" href="css/estiloppal.css">
+    <title>PROYECTO C3G3 PARCELAMIENTO FINCAS - compratuparcela</title>
 
 </head>
 
@@ -21,20 +24,23 @@
 <div class="cuerpoCompleto">
 
     <!-- Encabezado.. inicio -->
-    <header>
-        <img src="imagenes/LOGO LA ESPERANZA 02.png">
+    <header class="encabezado">
+        <!-- <div class="marco_img"> -->
+            <img src="imagenes/comprapar.png" class="img logoG">
+        <!-- </di   v> -->
+
     </header>
     <!-- Encabezado.. fin -->
 
     <!-- Barra de Navegación ... inicio -->
 
-    <nav id="nav" class="wrap">
+    <nav class="barraNav">
 
         <ul class="menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="compralote.html">Proyectos</a></li>
-        <li><a href="empresa.html">Nuestra Empresa</a></li>
-        <li><a href="contactos.html">Contáctenos</a></li>
+            <li class="mopc"><a class="active" href="index.html">Inicio</a></li>
+            <li class="mopc"><a href="compralote.html">Proyectos</a></li>
+            <li class="mopc"><a href="empresa.html">Nuestra Empresa</a></li>
+            <li class="mopc"><a href="contactos.html">Contáctenos</a></li>
         </ul>
 
     </nav>
@@ -44,84 +50,99 @@
     <div class="contenido">
 
         <!-- Caja Lateral Inquierda ... Inicio -->
-        <aside>
-            <img src="imagenes/LOGO EDALMARI.png">
+        <aside class="barraL">
+            <!-- <div class="marco_img"> -->
+                <img src="imagenes/LOGO EDALMARI.png" class="img logoE">
+            <!-- </div> -->
+            <br><br>
             <h1>EDALMARI INGENIERIA Y CONSTRUCCIONES</h1>
+            <br>
             <h2>Georeferenciación</h2>
             <h2>Topografía</h2>
             <h2>Obras Civiles</h2>
-            <!-- img src="imagenes/logo.png" -->
+            <br><br>
+            <img src="imagenes/LOGO LA ESPERANZA 02.png" class="img logoC">
+            <br><br>
+            <!-- <h1>CONDOMINIO LA ESPERANZA</h1> -->
+            <h3>Km12 vía Cali (RURAL)</h3>
+            <br>
+
         </aside>
         <!-- Caja Lateral Inquierda ... final -->
 
-        <section>
-            <article>
-                <h2>CONDOMINIO LA ESPERANZA</h2>
+        <section class="seccion">
+            <article class="articulo1"> 
+                <h1 class="textoC">CONDOMINIO LA ESPERANZA</h1>
                 <h3>SISTEMA DE GEOREFERENCIACION Y VENTAS</h3>
+                <br>
             </article>
 
-            <article>
+            <!-- <article class="articulo2 loteG"> 
                 <h5>Lote General</h5>
-                <img src="imagenes/ppLoteGeneral.jpeg" alt="Lote General" 
-                    style="width:256px;height: 200px;;">
-            </article>
+                <img src="imagenes/ppLoteGeneral.jpeg" alt="Lote General" class="img imgG">
+            </article> -->
 
-            <article>
-                <h5>Parcelamiento del Lote</h5>
-                <img src="imagenes/ppLotesTodos.jpeg" alt="Lote Todos"
-                style="width:256px;height: 200px;;">
-            </article>
+            <div class="lotes">
 
-            <article>
-                <h5>Lotes Uno</h5>
-                <img src="imagenes/ppLote1.jpeg" alt="Lote 1"
-                style="width:256px;height: 200px;;">
-            </article>
+                <article class="articulo2 loteT">
+                    <!-- <h5>Parcelamiento del Lote</h5> -->
+                    <img src="imagenes/ppLotesTodos.jpeg" alt="Lote Todos" class="img imgT">
+                </article>
 
-            <article>
-                <h5>Lotes Dos</h5>
-                <img src="imagenes/ppLote2.jpeg" alt="Lote 2"
-                style="width:256px;height: 200px;;">
-            </article>
+                <article class="articulo2 lote1">
+                    <!-- <h5>Lotes Uno</h5> -->
+                    <img src="imagenes/ppLote1.jpeg" alt="Lote 1" class="img img1">
+                </article>
 
-            <article>
-                <h5>Lotes Tres</h5>
-                <img src="imagenes/ppLote3.jpeg" alt="Lote 3"
-                style="width:256px;height: 200px;;">
-            </article>
+                <article class="articulo2 lote2">
+                    <!-- <h5>Lotes Dos</h5> -->
+                    <img src="imagenes/ppLote2.jpeg" alt="Lote 2" class="img img2">
+                </article>
 
-            <article>
-                <p id="infproyecto">
+                <article class="articulo2 lote3">
+                    <!-- <h5>Lotes Tres</h5> -->
+                    <img src="imagenes/ppLote3.jpeg" alt="Lote 3" class="img img3">
+                </article>
+            </div>
+
+            <article class="articulo3"> 
+                <p class="parrafo infProyecto">
+                    <br>
                     PROYECTO: <strong>CONDOMINIO NUEVA ESPERANZA</strong> 
+                    <br>
                     Ubicación: Km12 vía Cali (RURAL) 
+                    <br>
                     LOTES DESDE 1.800 Metros Cuadrador HASTA 6.000 Metros Cuadrados
                 </p>
             
-                <p><strong>Vías de Acceso</strong></p>
+                <br>
+                <p class="pbenef"><strong>Vías de Acceso</strong></p>
                 <ul>
                     <li>Vía a Zaragoza y Chicoral</li>
                     <li>Vía Cali - Dagua</li>
                     <li>Vía Bitaco - Lomitas</li>
                 </ul>
-
-                <p><strong>Servicios Públicos</strong></p>
-                <ul>
-                    <li>Energía</li>
-                    <li>Acueducto</li>
-                    <li>Telecomunicaciones fibra óptica</li>
-                    <li>Gas Natural</li>
-                </ul>
-
-                <p><strong>Servicios Adicionales</strong></p>
-                <ul>
-                    <li>Vereda Pueblonuevo</li>
-                    <li>Minimarket</li>
-                    <li>Finca Hicabai</li>
-                    <li>Ecohotel La Aldea</li>
-                    <li>Campamento Elohim</li>
-                    <li>Restaurantes</li>
-                    <li>Centro de Salud</li>
-                </ul>
+                
+                <br>
+                <p class="pbenef"><strong>Servicios Públicos</strong></p>
+                    <ul>
+                        <li>Energía</li>
+                        <li>Acueducto</li>
+                        <li>Telecomunicaciones fibra óptica</li>
+                        <li>Gas Natural</li>
+                    </ul>
+                <br>
+                <p class="pbenef"><strong>Servicios Adicionales</strong></p>
+                    <ul>
+                        <li>Vereda Pueblonuevo</li>
+                        <li>Minimarket</li>
+                        <li>Finca Hicabai</li>
+                        <li>Ecohotel La Aldea</li>
+                        <li>Campamento Elohim</li>
+                        <li>Restaurantes</li>
+                        <li>Centro de Salud</li>
+                    </ul>
+             
 
             </article>
         </section>
@@ -130,8 +151,29 @@
     <!-- Contenido ... final -->
 
     <!-- Pie de página - inicio -->
-    <footer>
-        <h6>www.compratuparcela.com - © Todos los derechos reservados 2021</h6>
+    <footer class="piePagina">
+        <div class="redof">
+            <div class="redes">
+                <h2 class="nredes">Nuestras Redes</h2>   
+                <div class="logoredes">
+                    <a href="https://twitter.com/edalmariingcon" target="_blank">
+                        <img src="imagenes/TW.png" class="img logoTW"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100072997085722" target="_blank">
+                        <img src="imagenes/FB.png" class="img logoFB"></a>
+                    <a href="https://www.instagram.com/edalmari.ingcon/" target="_blank">
+                        <img src="imagenes/INS.png" class="img logoIG"></a>
+                </div>              
+            </div>
+            <div class="direccion" > 
+                <h2>Nuestras Oficinas</h2>
+                    <p>Diagonal 23C Bis # 88B-10</p>
+                    <p>Bogotá DC</p>
+                    <p>Colombia</p>
+                    <p>(601)3173201903</p>
+            </div>
+        </div>
+        <img src="imagenes/comprapar.png" class="img logoG">
+        <h6>www.compratuparcela.com - Copyrigth © Todos los derechos reservados 2021</h6>
         <h6>PRYC3G3PARC - EQUIPO 3-C3</h6>
     </footer>
     <!-- Pie de página - final -->

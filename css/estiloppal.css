@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 1px solid  blueviolet; */
+    /* margin: 1%; */
+    background-color:grey;
+    font-size: 2vh;
+    /* width: 80%; */
+    margin:auto
+}
+
+.cuerpoCompleto{
+    border: 1px solid gray;
+    margin: 1%;
+    /* margin:auto */
+    background-color:rgb(163, 161, 161);
+    font-size: 2vh;
+    /* width: 80%; */
+}
+
+.encabezado{
+    /* border: 1px solid red; */
+    margin: 1%;
+    background-color:grey;
+    height: 65%;
+    padding: 10px;
+}
+
+
+.img{
+    display: block;
+    width: 80%;
+    object-fit: cover;
+    margin: auto;
+    /* border: 1px groove brown; */
+
+}
+
+.logoG{
+    width: 20%;
+    margin:0px;
+}
+
+
+.barraNav{
+    /* border: 1px solid brown; */
+    margin: 1%;
+    background-color:burlywood;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .mopc {
+    float: left;
+  }
+  
+.mopc a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.mopc a:hover {
+    background-color: #111;
+  }
+
+
+.contenido{
+    /* border: 1px solid goldenrod; */
+    margin: 1%;
+    background-color:gainsboro;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.contenidoC{
+    /* border: 1px solid goldenrod; */
+    margin: 1%;
+    background-color:gainsboro;
+
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+
+.barraL{
+    border: 1px solid gray;
+    margin: 1%;
+    padding: 30px;
+    /* background-color:grey; */
+
+}
+
+.logoE{
+    width: 30%;
+}
+
+
+h1{
+    text-align: center;
+    color: mediumblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:fantasy;
+}
+
+
+h2{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+.logoC{
+    width: 50%;
+}
+
+h3{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight:lighter;
+}
+
+.pempresa{
+    text-align: justify;
+    margin: 10px;
+
+}
+
+.seccion{
+    border: 1px solid gray;
+    margin: 1%;
+    padding: 20px;
+    /* background-color: rgb(192, 235, 192); */
+    /* width: 100%; */
+}
+
+.articulo1 .textoC{
+    color:goldenrod;
+}
+
+
+.lotes{
+    display: inline-flex;
+    width: 100%;
+    margin: 1px auto;
+}
+
+.articulo2{
+    width: 70%;
+    border:green;
+    margin: 1%;
+}
+
+.articulo2 img{
+    width: 100%;
+}
+
+.articulo3{
+    /* background-color: indigo; */
+    border:3px;
+    display: block;
+    width: 90%;
+    height: 425px;
+    margin: 1px auto;
+}
+
+p{
+    text-align: center;
+    color:black;
+    font-size: 14px;
+} 
+
+ul li {
+    list-style-position: inside;
+  }
+
+.articulo4{
+    display: block;
+    width: 20%;
+    margin: 1px auto;
+}
+
+.tabla, th, td {
+        border:1px solid rgb(58, 56, 56);
+ }
+
+ul.contactosG li {
+    list-style-position: inside;
+  }
+
+.pbenef{
+    text-align: left;
+}
+
+
+.piePagina{
+    /* border: 1px solid aqua; */
+    margin: 1%;
+    background-color:grey;
+    padding: 10px;
+}
+
+.redof{
+    /* margin: 3px; */
+    display: inline-flex;
+    width: 100%;
+    margin: 1px auto;
+}
+
+.redes{
+    /* height:20px; */
+    width: 433px;
+}
+
+.nredes{
+    text-align: left;
+    color:black;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+.logoredes{
+    display: inline-flex;
+    width: 25%;
+    margin: 1px auto;
+}
+
+.direccion{
+    text-align: left;
+    color:black;
+    font-size: 30px;
+    font-family: Helvetica;
+
+    width: 433px;
+}
+
+h6{
+    text-align: center;
+}
+
+/*estilos para tablets*/
+@media screen and (min-width:768px){
+
+}
+
+/*estilos para computadores*/
+@media screen and (min-width:1024px){
+
+}
+
+@media screen and (max-width:800px){
+    .contenido{
+        display: block;
+    }
+
+    .seccion{
+        width: 100%;
+    }
+
+    .barraL{
+        width: 100%;
+    }
+}
