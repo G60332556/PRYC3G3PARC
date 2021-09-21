@@ -1,91 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">   
-    <title>Aplicacion Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/compratuparcelacom.png">
+    <link rel="stylesheet" href="css/estilosLotes.css">
+    <title>PROYECTO C3G3 PARCELAMIENTO FINCAS - compratuparcela</title>
+
 </head>
 <body>
-    <div class="caja-principal">
-    <!-- Encabezado.. inicio -->
-    <header>
-        <img src="imagenes/LOGO LA ESPERANZA 02.png">
-    </header>
-    <!-- Encabezado.. fin -->
+    <div class="cuerpoCompleto">
 
-    <!-- Barra de Navegación ... inicio -->
+        <!-- Encabezado.. inicio -->
+        <header class="encabezado">
+            <!-- <div class="marco_img"> -->
+                <img src="imagenes/comprapar.png" class="img logoG">
+            <!-- </di   v> -->
 
-    <nav id="nav" class="wrap">
+        </header>
+        <!-- Encabezado.. fin -->
 
-        <ul class="menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="compralote.html">Proyectos</a></li>
-            <li><a href="empresa.html">Nuestra Empresa</a></li>
-            <li><a href="contactos.html">Contáctenos</a></li>
+        <!-- Barra de Navegación ... inicio -->
+
+        <nav class="barraNav">
+
+            <ul class="menu">
+                <li class="mopc"><a class="active" href="index.html">Inicio</a></li>
+                <li class="mopc"><a href="compralote.html">Proyectos</a></li>
+                <li class="mopc"><a href="empresa.html">Nuestra Empresa</a></li>
+                <li class="mopc"><a href="contactos.html">Contáctenos</a></li>
             </ul>
 
-    </nav>
-    <!-- Barra de Navegación ... final -->
+        </nav>
+        <!-- Barra de Navegación ... final -->
 
-        <main class="caja-principal__contenedor">
 
-            <div class="contenedor_principal">
+        <main class="contenido">
 
-                <div class="contenido">
-            
-                
-                    <section>
-                        <h2>lote1</h2>
-                        <img src="imagenes/parcela1.jpg" alt="lote1" width="350" height="200">
-        
-                    </section>
-                    <aside>
-                        <p>lote1</p>
-        
-                    </aside>
-                            
+            <!--<div class="contenedor_principal">-->
+            <section class="seccion">
+
+                <div class="lotes">
+                    <figure>                            
+                        <img src="imagenes/parcela1.jpg" alt="lote1">
+                    </figure>
+                    <div class="info-lote">
+                        <h3>Venta Lote Campestre Asofloresta</h3>
+                        <br>
+                        <p class="precio">
+                            $ 274.140.000
+                        </p>
+                        <br>
+                        <p>Kilómetro 27 vía al mar, Dagua, Valle del Cauca</p>
+                        <br>
+                        <p>6.090 metos cuadrados</p>                            
+                    </div>
                 </div>
 
-            </div>
+            </section>
                 
 
-            <div class="caja-principal__contacto">
-                <div class="formulario-contacto">
-                    <div class="formulario-contacto__titulo">Solicita más información</div>
-                    <div class="formulario-contacto__contenido">    
+            <aside class="caja-contacto">
+                <div class="caja-contacto__formulario">
+                    <div class="titulo-formulario">Solicita más información</div>
+                    <div class="contenido-formulario">    
                         <div class="empresa">
                             <span class="name">EDALMARI INGENIERIA Y CONSTRUCCIONES</span>
                         </div>
                         <div class="separador"></div>
-                        <div class="formulario-contacto__datos">
+                        <div class="contenedor-datos">
+                            <div class="datos">
                                
-                            <div class="input-wrapper">
-                                <input class="input" type="text" name="name" id="input-name" placeholder="Nombre *">
-                            </div>    
-                            
-                            <div class="input-wrapper">
-                                <input class="input" type="email" name="email" id="input-email" placeholder="Email *">
+                                <div class="input-wrapper">
+                                    <div class="input-header">
+                                        <span>Nombre *</span>
+                                        <span class="error-text">Campo obligatorio</span>
+                                    </div>
+                                    <input class="input" type="text" name="name" id="input-name" placeholder="Nombre *">
+                                </div>    
+                                
+                                <div class="input-wrapper">
+                                    <div class="input-header">
+                                        <span>Email *</span>
+                                        <span class="error-text">Campo obligatorio</span>
+                                    </div>
+                                    <input class="input" type="email" name="email" id="input-email" placeholder="Email *">
+                                </div>
+    
+                                <div class="telefono">
+                                    <input id="input-phone" class="input" type="tel" name="phone" placeholder="Teléfono">
+                                </div>
+    
+                                <textarea class="textarea" name="message" cols="30" id="textarea-message" rows="10" placeholder="Me gustaría recibir más información acerca de esta propiedad"></textarea>
+                                <button id="request-info-send-button" class="button filled">Enviar</button>
                             </div>
-
-                            <div class="telefono">
-                                <input id="input-phone" class="input" type="tel" name="phone" placeholder="Teléfono">
-                            </div>
-
-                            <textarea class="textarea" name="message" cols="30" id="textarea-message" rows="10" placeholder="Me gustaría recibir más información acerca de esta propiedad"></textarea>
-                            <button id="request-info-send-button" class="button filled">Enviar</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </aside>
         
         </main>
 
-    <!-- Pie de página - inicio -->
-    <footer>
-        <h6>www.compratuparcela.com - © Todos los derechos reservados 2021</h6>
-        <h6>PRYC3G3PARC - EQUIPO 3-C3</h6>
-    </footer>
-    <!-- Pie de página - final -->
-    
+        <!-- Pie de página - inicio -->
+        <footer class="piePagina">
+            <div class="redof">
+                <div class="redes">
+                    <h2 class="nredes">Nuestras Redes</h2>   
+                    <div class="logoredes">
+                        <a href="https://twitter.com/edalmariingcon" target="_blank">
+                            <img src="imagenes/TW.png" class="img logoTW"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100072997085722" target="_blank">
+                            <img src="imagenes/FB.png" class="img logoFB"></a>
+                        <a href="https://www.instagram.com/edalmari.ingcon/" target="_blank">
+                            <img src="imagenes/INS.png" class="img logoIG"></a>
+                    </div>              
+                </div>
+                <div class="direccion" > 
+                    <h2 class="noficinas">Nuestras Oficinas</h2>
+                    <p>Diagonal 23C Bis # 88B-10</p>
+                    <p>Bogotá DC</p>
+                    <p>Colombia</p>
+                    <p>(601)3173201903</p>
+                </div>
+            </div>
+            <img src="imagenes/comprapar.png" class="img logoG">
+            <h6>www.compratuparcela.com - Copyrigth © Todos los derechos reservados 2021</h6>
+            <h6>PRYC3G3PARC - EQUIPO 3-C3</h6>
+        </footer>
+        <!-- Pie de página - final -->
+
     </div>
 </body>
 </html>
